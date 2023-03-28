@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 43b4694b0b7504fe8859a72fc2c9641e
+guid: 2b7e3060069374302b6db7c1d0810ff1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,55 +117,118 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mario walk_0
+      name: mario_stand
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 110
-        height: 152
+        x: 8
+        y: 40
+        width: 26
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a04cb2874277e4fa0895c103133d72be
-      internalID: -1477824985
+      spriteID: c8645c492dc334e1eb2b1b9030103ccd
+      internalID: -178375893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario walk_1
+      name: mario_walk_1
       rect:
         serializedVersion: 2
-        x: 110
-        y: 0
-        width: 110
-        height: 152
+        x: 6
+        y: 3
+        width: 27
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4a873d14b42c4705908c1064b395daa
-      internalID: 1318025494
+      spriteID: 6b6c73efcd59e4a9bba0c3252bcec39b
+      internalID: 1022028031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario walk_2
+      name: mario_walk_2
       rect:
         serializedVersion: 2
-        x: 220
-        y: 0
-        width: 110
-        height: 152
+        x: 49
+        y: 3
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c6b81a1717149a9ab2d361be0c8675
+      internalID: -1660063003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_walk_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 3
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35e075280350411a8cdb3fa086c12c4
+      internalID: 602177643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_jump
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20c43f4f34e84e6b9b7e0885bdf8d1d
+      internalID: -629961287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_stand_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 40
+        width: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e681f0a7a5f5c44309430e524da850df
-      internalID: 837559176
+      spriteID: 2640ee2cb07834d05a5ef133ef659503
+      internalID: 87105478
       vertices: []
       indices: 
       edges: []
@@ -190,9 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mario walk_0: -1477824985
-      mario walk_2: 837559176
-      mario walk_1: 1318025494
+      mario_stand_2: 87105478
+      mario_walk_1: 1022028031
+      mario_walk_2: -1660063003
+      mario_walk_3: 602177643
+      mario_stand: -178375893
+      mario_jump: -629961287
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -4,7 +4,7 @@ using System.Diagnostics;
 using UnityEngine;
 
 
-public class PlatformerPlayer : MonoBehaviour
+public class Mario : MonoBehaviour
 {
     public float speed = 3.5f;
 
@@ -18,7 +18,7 @@ public class PlatformerPlayer : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         box = GetComponent<BoxCollider2D>();
-        
+
     }
 
     void Update()
@@ -54,7 +54,7 @@ public class PlatformerPlayer : MonoBehaviour
         if (!Mathf.Approximately(deltaX, 0)) {
             transform.localScale = new Vector3(Mathf.Sign(deltaX), 1, 1);
         }
-    }
 
+    }
   
 }
